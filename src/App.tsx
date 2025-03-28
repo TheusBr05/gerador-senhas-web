@@ -30,7 +30,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route element={<Sidebar items={itemsSidebar} />}>
-
+          <Route path="/" element={<div>Home</div>} />
+          <Route path="/senhas-salvas" element={<div>Senhas Salvas</div>} />
         </Route>
       </Routes>
     </BrowserRouter>
